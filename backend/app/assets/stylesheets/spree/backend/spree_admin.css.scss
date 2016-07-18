@@ -26,3 +26,111 @@
 
 @import 'shared/base';
 @import 'shared/forms';
+
+
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,600,500,300,700);
+
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+a {
+	color: #a98d39;
+}
+
+#main-sidebar ul.nav-sidebar > li > a {
+	color: #d2b356;
+}
+
+.navbar-inverse {
+	background-color: #d2b356;
+	border-color: #d2b356;
+}
+
+.btn, .form-control, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow {
+    border-radius: 0px;
+}
+
+.btn-success, .btn.action-capture {
+	background-color: #d2b356;
+	border-color: transparent;
+}
+
+.btn-success:hover, .btn.action-capture:hover, .btn-success:active:hover, .btn.action-capture:active:hover, .btn-success:active:focus, .btn.action-capture:active:focus, .btn-success:active.focus, .btn.action-capture:active.focus, .btn-success.active:hover, .active.btn.action-capture:hover, .btn-success.active:focus, .active.btn.action-capture:focus, .btn-success.active.focus, .active.focus.btn.action-capture, .open > .btn-success.dropdown-toggle:hover, .open > .dropdown-toggle.btn.action-capture:hover, .open > .btn-success.dropdown-toggle:focus, .open > .dropdown-toggle.btn.action-capture:focus, .open > .btn-success.dropdown-toggle.focus, .open > .dropdown-toggle.focus.btn.action-capture, .btn-success:active, .btn.action-capture:active, .btn-success.active, .active.btn.action-capture, .open > .btn-success.dropdown-toggle, .open > .dropdown-toggle.btn.action-capture, .btn-success:focus, .btn.action-capture:focus, .btn-success.focus, .focus.btn.action-capture {
+	background-color: #b19749;
+	border-color: transparent;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: #d2b356;
+    border-color: #d2b356;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #d2b356;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.btn-primary, .btn.payment-action-edit {
+    background-color: #434752;
+    border-color: #434752;
+}
+
+.form-control, .select2-container .select2-choice {
+    border: 1px solid #d2b356; 
+}
+
+.js-quick-search, .js-per-page-select {
+    border: 1px solid #e0e0e0;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    border-color: transparent;
+    color: #d2b356;
+}
+
+.index-filter-button button {
+    padding: 10px 16px 9px;
+}
+
+.form-control {
+        padding: 6px 16px;
+}
+
+.glyphicon, .icon, .select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close, #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-w, #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-e {
+    top: 3px;
+}
+
+.icon-chevron-right, .icon-chevron-up {
+    top: 2px;
+}
+
+#main-sidebar ul.nav-sidebar > li > a .icon {
+    top: -1px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #b19749;
+}
+
+input.form-control:active, input.form-control:focus, .form-control:focus {
+    border-color: #d2b356;
+}
+
+.icon-filter {
+    top: 7px;
+}
+
+/* LOGIN STYLES */
+
+#spree-header {
+    background-color: #d2b356;
+    background-image: none;
+}
+
+.panel {
+    border-radius: 0;
+}
